@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <title>Informática Educativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Asegura que el cuerpo ocupe al menos toda la altura de la ventana */
+        }
+        header, footer {
+            background-color: #3c8dbc;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            width: 100%; /* Asegura que el encabezado y el pie de página ocupen todo el ancho */
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            max-width: 800px;
+        }
+        .logo {
+            max-height: 50px; /* Ajusta la altura del logo según tu preferencia */
+            margin-right: 10px; /* Espacio entre el logo y el texto */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            flex: 1; /* Permite que el contenido principal ocupe el espacio restante */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        section {
+            background: #c8ebff;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            text-align: justify;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            max-height: 200px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/logo.png" alt="logo" class="logo">
+            <h1>Informática Educativa</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">¿QUÉ ES LA INFORMÁTICA EDUCATIVA?</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Bienvenidos</h2>
+            <p>La informática educativa se refiere al uso de tecnologías de la información y la comunicación (TIC) en el ámbito educativo para mejorar el proceso de enseñanza y aprendizaje. Esto incluye el uso de computadoras, software educativo, internet y otras herramientas digitales que facilitan el acceso al conocimiento y fomentan el desarrollo de habilidades en los estudiantes.</p>
+            <img src="img/informatica-educativa1.jpg" alt="imagen">
+        </section>
+        <section id="about">
+            <h2>Acerca de la Informática Educativa</h2>
+            <p>La informática educativa integra herramientas tecnológicas en el aula para facilitar el aprendizaje y fomentar habilidades digitales en los estudiantes. Estas herramientas incluyen desde software educativo y plataformas en línea hasta dispositivos como computadoras, tablets y pizarras digitales. La Informática Educativa se refiere a la integración de las tecnologías de la información y la comunicación (TIC) en los procesos de enseñanza y aprendizaje. Este campo se enfoca en cómo las herramientas tecnológicas pueden mejorar la educación y hacerla más accesible y efectiva para estudiantes de todas las edades.</p>
+            <img src="img/informatica.jpg" alt="imagen">
+        </section>
+        <section id="resources">
+            <h2>Recursos Educativos</h2>
+            <h3>La Informática Educativa</h3>
+            <p><strong>Khan Academy:</strong> Ofrece cursos gratuitos en una variedad de temas, incluyendo matemáticas, ciencias, programación y más. Ideal para estudiantes de todas las edades.</p>
+            <p><strong>Coursera:</strong> Plataforma que ofrece cursos, especializaciones y grados en línea de universidades y empresas de todo el mundo. Incluye una amplia gama de temas tecnológicos y educativos.</p>
+            <p><strong>edX:</strong> Plataforma de aprendizaje en línea fundada por Harvard y el MIT que ofrece cursos gratuitos y de pago en diversas disciplinas, incluidas la informática y la educación.</p>
+            <p><strong>Udemy:</strong> Proporciona cursos en línea sobre una gran variedad de temas, muchos de ellos enfocados en habilidades tecnológicas y desarrollo profesional.</p>
+            <ul>
+                <h4>Software Educativo</h4>
+                <p><strong>Scratch:</strong> Lenguaje de programación visual diseñado para enseñar a los niños los conceptos básicos de la programación mediante la creación de historias interactivas, juegos y animaciones.</p>
+                <img src="img/Scratch-cat.png" alt="scratch">
+                <p><strong>Code.org:</strong> Organización sin fines de lucro dedicada a expandir el acceso a la informática en las escuelas y aumentar la participación de las mujeres y los estudiantes de grupos minoritarios.</p>
+                <img src="img/code.png" alt="code">
+                <p><strong>Tinkercad:</strong> Herramienta en línea gratuita para crear y diseñar modelos 3D, útil para enseñar a los estudiantes sobre diseño y fabricación digital.</p>
+                <img src="img/tinkercad.png" alt="tinker">
+                <p><strong>YouTube Edu:</strong> Colección de videos educativos en YouTube que abarca una amplia gama de temas, incluyendo tutoriales y conferencias sobre informática y educación.</p>
+                <img src="img/edu.jpg" alt="youtube">
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <h3>Creador: Emerson Misael Sanchez</h3>
+    </footer>
+</body>
+</html>
